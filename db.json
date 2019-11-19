@@ -1,28 +1,96 @@
 {
-    "posts": [
+    "pitstops": [
         {
             "id": 1,
-            "title": "Post 1"
+            "name": "Pitstop 1",
+            "addr": "Place, 123 Street, City, XYZ 989",
+            "favourite": false,
+            "distByWalk": 45,
+            "distByCar": 10,
+            "dist": 1.9,
+            "cubeCoord": {
+                "latitude": 51.528308,
+                "longitude": -0.1
+            },
+            "vendCoord": null
         }, {
             "id": 2,
-            "title": "Post 2"
+            "name": "Pitstop 2",
+            "addr": "Place, 123 Street, City, XYZ 989",
+            "favourite": false,
+            "distByWalk": 50,
+            "distByCar": 25,
+            "dist": 2,
+            "cubeCoord": null,
+            "vendCoord": {
+                "latitude": 51.527308,
+                "longitude": -0.1
+            }
         }, {
             "id": 3,
-            "title": "Post 3"
-        }
-    ],
-    "comments": [
-        {
-            "id": 1,
-            "body": "some comment",
-            "postId": 1
+            "name": "Pitstop 3",
+            "addr": "Place, 123 Street, City, XYZ 989",
+            "favourite": false,
+            "distByWalk": 25,
+            "distByCar": 5,
+            "dist": 1,
+            "cubeCoord": {
+                "latitude": 51.527208,
+                "longitude": -0.15
+            },
+            "vendCoord": null
         }, {
-            "id": 2,
-            "body": "some comment",
-            "postId": 1
+            "id": 4,
+            "name": "Pitstop 4",
+            "addr": "Place, 123 Street, City, XYZ 989",
+            "favourite": false,
+            "distByWalk": 30,
+            "distByCar": 15,
+            "dist": 1.5,
+            "cubeCoord": null,
+            "vendCoord": {
+                "latitude": 51.526308,
+                "longitude": -0.1
+            }
+        }, {
+            "id": 5,
+            "name": "Pitstop 5",
+            "addr": "Place, 123 Street, City, XYZ 989",
+            "favourite": false,
+            "distByWalk": 35,
+            "distByCar": 8,
+            "dist": 1.8,
+            "cubeCoord": {
+                "latitude": 51.525508,
+                "longitude": -0.13
+            },
+            "vendCoord": null
+        }, {
+            "id": 6,
+            "name": "Pitstop 6",
+            "addr": "Place, 123 Street, City, XYZ 989",
+            "favourite": false,
+            "distByWalk": 70,
+            "distByCar": 55,
+            "dist": 4,
+            "cubeCoord": null,
+            "vendCoord": {
+                "latitude": 51.524308,
+                "longitude": -0.1
+            }
+        }, {
+            "id": 7,
+            "name": "Pitstop 12",
+            "addr": "Place, 123 Street, City, XYZ 989",
+            "favourite": false,
+            "distByWalk": 70,
+            "distByCar": 55,
+            "dist": 4,
+            "cubeCoord": {
+                "latitude": 51.521108,
+                "longitude": -0.11
+            },
+            "vendCoord": null
         }
-    ],
-    "profile": {
-        "name": "typicode"
-    }
+    ]
 }
